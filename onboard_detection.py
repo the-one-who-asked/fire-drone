@@ -30,7 +30,7 @@ frames = np.zeros((min(underlap, FPS),) + SIZE, dtype=np.int8)  # Queue
 
 "====================================================== Modules ======================================================="
 def get_frame() -> np.ndarray:
-    """Captures a new frame from the NoIR camera"""
+    """Captures a new frame from the camera"""
 
     # capture frame in YUV
     # convert from YUV to YCbCr
